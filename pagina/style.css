@@ -104,6 +104,7 @@ float: left;
     padding: 0 250px;
     margin-bottom: 25px;
 }
+
 .btn-1 {
     display: inline-block;
     padding: 11px 35px;
@@ -112,21 +113,22 @@ float: left;
     text-transform: uppercase;
 
 }
+
 .btn-1 :hover{
     background-color: #ebadeb;
 }
 
-.coffee {
+.infotech {
   padding: 100px 0;
   background-color: #e1e2e1;
   position: relative;
 }
 
-.coffee-content {
+.infotech-content {
     text-align: center;
 }
 
-.coffee-content h2 {
+.infotech-content h2 {
     font-size: 55px;
     line-height: 70px;
     color: #323337;
@@ -144,29 +146,29 @@ float: left;
     margin-bottom: 35px;
 }
 
-.coffee-group {
+.infotech-group {
 display: flex;
 justify-content: space-between;
 margin-bottom: 50px;
 }
 
-.coffee-1 {
+.infotech1 {
     padding: 0 25px;
 }
 
 
-.coffee-1 img {
+.infotech-1 img {
     width: 200px;
 
     }
 
-    .coffee-img {
+    .infotech-img {
         position: absolute;
         top: 0;
         right: 0;
 
     }
-    .coffee-1 h3{
+    .infotech-1 h3{
         color: #323337;
         font-size: 20px;
         margin-bottom: 15px;
@@ -337,9 +339,10 @@ margin-bottom: 50px;
         }
 
         .menu label {
-display: initial;
+            display: initial;
 
         }
+
         .menu navbar{
             position: absolute;
             top: 100%;
@@ -348,18 +351,20 @@ display: initial;
             background-color: #323337;
             display: none;
         }
+
         .menu .navbar ul li {
             width: 100%;
         }
 
         #menu:checked ~ .navbar{
-        display: initial;
+            display: initial;
 
         }
 
         .header {
             min-height: 0vh;
         }
+
         .header-content {
             padding: 100px  30px;
         }
@@ -369,4 +374,82 @@ display: initial;
 
         }
 
+        .infotech {
+            padding: 30px;
+        }
+    
+        .infotech-content h2 {
+            padding: 0;
+        }
+
+        .txt-p {
+            padding: 0;
+        }
+
+        .infotech-group {
+            flex-direction: column;
+            margin-bottom: 0;
+
+        }
+
+        .infotech-img {
+            display: none;
+        }
+
+        .services {
+            padding:  30px;
+        }
+
+        .services-content p {
+            padding: 0;
+        }
+        .services-group {
+
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+
+        .services-1 {
+
+            margin-bottom:  25px;
+        }
+
+        .general {
+            flex-direction: column;
+        }
+
+        .general-1 {
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .general-2, .general-3 {
+            display: none;
+
+        }
+
+        .blog {
+            padding: 30px;
+        }
+
+        .blog-content {
+            flex-direction: column;
+        }
+
+        .blog-1 {
+            padding: 0;
+        }
+
+        .footer {
+            padding: 30px;
+        }
+
+        .footer-content {
+
+            flex-direction: column;
+            text-align: center;
+        }
     }
+
+    
